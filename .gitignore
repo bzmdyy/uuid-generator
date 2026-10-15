@@ -1,0 +1,32 @@
+dist/
+node_modules/
+.vercel/
+.env*
+artifacts/
+
+# Local secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.npmrc
+.netrc
+_netrc
+.aws/
+.ssh/
+credentials.json
+credentials*.json
+client_secret*.json
+service-account*.json
+secrets/
+
+# Local tooling and logs
+.codex/
+.agents/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
